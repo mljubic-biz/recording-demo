@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import * as RecordRTC from "recordrtc";
 import "./App.css";
 
-const audioType = "audio/wav";
-
 function App() {
   const [isRecording, setIsRecording] = useState(false);
   const [recordingRes, setRecordingRes] = useState<Blob>();
